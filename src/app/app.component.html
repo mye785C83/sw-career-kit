@@ -1,92 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(56, 61, 89, 0.6);">
-  <a class="navbar-brand" href="#"><h1>SiteTitle</h1></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+<app-header></app-header>
 <div class="row">
   <div class="col-lg-7">
-    <div class="webtoon-box">
-      <img src="assets/imgs/webtoon/1.png" alt="1" class="img-fluid-odd">
-      <img src="assets/imgs/webtoon/2.png" alt="2" class="img-fluid-even">
-      <img src="assets/imgs/webtoon/3.png" alt="3" class="img-fluid-odd">
-      <img src="assets/imgs/webtoon/4.png" alt="4" class="img-fluid-even">
-      <img src="assets/imgs/webtoon/5.png" alt="5" class="img-fluid-odd">
-      <img src="assets/imgs/webtoon/6.png" alt="6" class="img-fluid-even">
-      <img src="assets/imgs/webtoon/7.png" alt="7" class="img-fluid-odd">
-      <img src="assets/imgs/webtoon/8.png" alt="8" class="img-fluid-even">
-      <img src="assets/imgs/webtoon/9.png" alt="9" class="img-fluid-odd">
-      <img src="assets/imgs/webtoon/10.png" alt="10" class="img-fluid-even">
-      <img src="assets/imgs/webtoon/11.png" alt="11" class="img-fluid-odd">
-      <img src="assets/imgs/webtoon/12.png" alt="12" class="img-fluid-even">
-      <img src="assets/imgs/webtoon/13.png" alt="13" class="img-fluid-odd">
-      <img src="assets/imgs/webtoon/14.png" alt="14" class="img-fluid-even">
-      <img src="assets/imgs/webtoon/15.png" alt="15" class="img-fluid-odd">
-    </div>
+    <app-webtoons></app-webtoons>
   </div>
   <div class="col-lg-5 contents-box container">
-    contents
-    <!-- 1. 빅데이터 전문가 -->
-    <div class="each-content">
-      <P>
-        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample01" aria-expanded="false" aria-controls="collapseExample01">
-          <h1>1.빅데이터 전문가</h1>
-        </button>
-      </P>
-      <div class="collapse" id="collapseExample01">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-      </div>
-    </div>
-    <!-- 2. 홀로그램 전문가 -->
-    <div class="each-content">
-      <P>
-        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample02" aria-expanded="false" aria-controls="collapseExample02">
-          <h1>2.홀로그램 전문가</h1>
-        </button>
-      </P>
-      <div class="collapse" id="collapseExample02">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-      </div>
-    </div>
-    <!-- 3. 스마트센서 전문가 -->
-    <div class="each-content">
-      <P>
-        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample03" aria-expanded="false" aria-controls="collapseExample03">
-          <h1>3.스마트센서 전문가</h1>
-        </button>
-      </P>
-      <div class="collapse" id="collapseExample03">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-      </div>
-    </div>
+    <app-contents></app-contents>
   </div>
 </div>
