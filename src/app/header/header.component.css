@@ -1,0 +1,28 @@
+.blog-header{
+  color: #383D59;
+  padding: 1.5rem;
+}
+
+.navbar-brand{
+  color: #383D59;
+}
+
+.description-down{
+  padding-top: 1.5%;
+  color: #383D59;
+}
+
+.float-right{
+  margin-right: 1%;
+}
+
+#siteDescription{
+  background-color: rgba(242, 187, 140, 0.5);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+a {
+  color: #fff;
+}

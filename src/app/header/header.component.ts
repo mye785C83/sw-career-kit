@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  isShow = true;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onShowDescription(){
+    this.isShow = !this.isShow;
+  }
 }

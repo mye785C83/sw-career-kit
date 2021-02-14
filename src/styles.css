@@ -1,5 +1,6 @@
 html, body, .col-lg-7 {
   height: 100%;
+  overflow: auto;
 }
 
 .navbar{
@@ -8,14 +9,9 @@ html, body, .col-lg-7 {
   max-height: 90px;
 }
 
-.navbar-brand{
-  padding-left: 1.5rem;
-  color: whitesmoke !important;
-}
-
 body{
-  background: linear-gradient(to bottom, rgba(56, 61, 89, 1) 60%, rgba(105, 103, 140, 1))
-  /* background-color: rgba(56, 61, 89, 1); */
+  /*background: linear-gradient(to bottom, rgba(56, 61, 89, 1) 60%, rgba(105, 103, 140, 1))*/
+   background: linear-gradient(to bottom, rgb(244, 227, 209) 40%, rgb(243, 223, 199));
 }
 
 .row, .webtoon-box{
@@ -23,27 +19,11 @@ body{
   overflow: auto;
 }
 
-.webtoon-box{
-  margin-top: 90px;
-}
-
 .webtoon-box::-webkit-scrollbar{
   display: none;
 }
 
-.img-fluid-odd, .img-fluid-even{
-  max-width: 80%;
-  height: auto;
-}
-
-.img-fluid-odd{
-  float: left;
-}
-
-.img-fluid-even{
-  float: right;
-}
-
 .btn{
   background-color: #99AABF !important;
+  border: none !important;
 }

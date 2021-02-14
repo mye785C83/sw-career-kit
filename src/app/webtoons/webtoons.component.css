@@ -1,0 +1,16 @@
+.img-fluid-odd, .img-fluid-even{
+  max-width: 80%;
+  height: auto;
+}
+
+.img-fluid-odd{
+  float: left;
+}
+
+.img-fluid-even{
+  float: right;
+}
+
+.webtoon-box {
+  padding-left: 3%;
+}
