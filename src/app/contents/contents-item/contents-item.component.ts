@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contents-item.component.css']
 })
 export class ContentsItemComponent implements OnInit {
+  public isSec1Collapsed = true;
+  public isSec2Collapsed = true;
+  public isSec3Collapsed = true;
 
   constructor() { }
 

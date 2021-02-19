@@ -1,1 +1,39 @@
-<p>contents-item works!</p>
+<!--section 1-->
+<div class="each-content rounded">
+  <p>
+    <button class="navbar-toggler" type="button" (click)="isSec1Collapsed = !isSec1Collapsed" ng-class="">
+      <h1>1.빅데이터 전문가</h1>
+    </button>
+  </p>
+  <div class="collapse mb-3" [ngbCollapse]="isSec1Collapsed">
+    <div class="card card-body">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+  </div>
+</div>
+<!--section 2-->
+<div class="each-content rounded">
+  <P>
+    <button class="navbar-toggler" type="button" (click)="isSec2Collapsed = !isSec2Collapsed">
+      <h1>2.홀로그램 전문가</h1>
+    </button>
+  </P>
+  <div class="collapse mb-3" [ngbCollapse]="isSec2Collapsed">
+    <div class="card card-body">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+  </div>
+</div>
+<!--section 3-->
+<div class="each-content rounded">
+  <P>
+    <button class="navbar-toggler" type="button" (click)="isSec3Collapsed = !isSec3Collapsed">
+      <h1>3.스마트센서 전문가</h1>
+    </button>
+  </P>
+  <div class="collapse" [ngbCollapse]="isSec3Collapsed">
+    <div class="card card-body">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+  </div>
+</div>
