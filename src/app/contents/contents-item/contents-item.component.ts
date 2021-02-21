@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-contents-item',
   templateUrl: './contents-item.component.html',
-  styleUrls: ['./contents-item.component.css']
+  styleUrls: ['./contents-item.component.scss']
 })
 export class ContentsItemComponent implements OnInit {
   public isSec1Collapsed = true;
