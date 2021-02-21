@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'InfinitySans-RegularA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .blog-header{
   padding: 1.5rem;
   background-image: url("../../assets/imgs/header-background.jpg");
@@ -19,4 +26,24 @@
 
 a {
   color: #fff;
+}
+
+.h2 {
+  @media (max-width: 992px) {
+    font-size: 1.75rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+  }
+}
+
+.right-align {
+  max-width: 7%;
+  margin-left: 93%;
+}
+
+.display-4 {
+  @media (max-width: 480px) {
+    font-size: 2.5rem;
+  }
 }

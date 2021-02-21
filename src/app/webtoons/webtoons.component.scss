@@ -1,6 +1,13 @@
 .img-fluid-odd, .img-fluid-even{
   max-width: 80%;
   height: auto;
+  @media (max-width: 992px) {
+    max-width: 95%;
+  }
+  @media (max-width: 480px) {
+    max-width: 97.6%;
+    margin-bottom: 3%;
+  }
 }
 
 .img-fluid-odd{

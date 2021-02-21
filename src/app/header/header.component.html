@@ -1,20 +1,28 @@
-<header class="blog-header">
+<header class="blog-header text-white mb-4">
   <a class="navbar-brand" href="#"><h1 class="display-4 font-weight-bold">SiteTitle</h1></a>
-  <fa-icon *ngIf="!isShow; else description" [icon]="['fas', 'angle-down']" size="2x" (click)="onShowDescription()" class="description-down"></fa-icon>
-  <ng-template #description>
-    <div class="p-3 p-md-5">
-      <div id="siteDescription">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        <p>
-        <fa-icon [icon]="['fas', 'angle-up']" size="lg" (click)="onShowDescription()" class="float-right"></fa-icon>
-        </p>
+  <fa-icon *ngIf="isCollapsed" [icon]="['fas', 'angle-down']" size="2x" (click)="isCollapsed=!isCollapsed" class="description-down"></fa-icon>
+  <div [ngbCollapse]="isCollapsed">
+    <div class="p-3 p-md-5 row">
+      <div class="col-md-7">
+        <div class="pb-3">
+          <div class="pb-3">
+            <h2 class="h2">
+              코딩을 통해 4차 산업 혁명 유망 직업을 직접 체험해볼 수 있는 융합형 진로 SW 키트입니다.
+            </h2>
+          </div>
+          <div class="pb-3">
+            <h5 class="font-weight-bold">1) 융합 교육</h5>
+            SW 교육 의무화의 핵심인 “코딩 교육”과 중학교 자율 학기제의 핵심 “직업 체험”을 융합했습니다.
+          </div>
+          <div class="pb-3">
+            <h5 class="font-weight-bold">2) 실질적인 직업 체험 기회</h5>
+            설명 뿐인 직업 교육은 그만! 코딩을 통해 4차 산업 혁명 유망 직업군의 실제 직무를 직접 체험할 수 있는 키트입니다.
+          </div>
+          <button class="btn btn-info float-right" (click)="isCollapsed=!isCollapsed"><a href="#contents-box">체험 바로가기</a></button>
+        </div>
       </div>
-      <button class="btn btn-info float-right" (click)="onShowDescription()"><a href="#contents-box">체험 바로가기</a></button>
     </div>
-  </ng-template>
+    <fa-icon class="right-align" [icon]="['fas', 'angle-up']" size="3x" (click)="isCollapsed=!isCollapsed"></fa-icon>
+  </div>
 </header>
 

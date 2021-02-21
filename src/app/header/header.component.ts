@@ -6,14 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  isShow = true;
+  isCollapsed = false;
 
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-  onShowDescription(){
-    this.isShow = !this.isShow;
   }
 }

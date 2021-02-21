@@ -1,3 +1,9 @@
 .focus {
   background-color: #99AABF !important;
 }
+
+h1 {
+  @media (max-width: 480px) {
+    font-size: 2rem;
+  }
+}
