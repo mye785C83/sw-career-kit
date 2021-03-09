@@ -1,0 +1,53 @@
+.col-lg-4{
+  margin: 0 !important;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.col-lg-4::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.row{
+  margin: 0 !important;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.row::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.img-fluid-odd, .img-fluid-even{
+  max-width: 87%;
+  height: auto;
+  @media (max-width: 992px) {
+    max-width: 95%;
+  }
+  @media (max-width: 480px) {
+    max-width: 97.6%;
+    margin-bottom: 3%;
+  }
+}
+
+.img-fluid-odd{
+  float: left;
+}
+
+.img-fluid-even{
+  float: right;
+}
+
+.webtoon-box {
+  padding-left: 3%;
+}
+
+.show-card{
+  display: block;
+}
+
+#big-data-box{
+  position: absolute;
+  right: 0;
+}
+

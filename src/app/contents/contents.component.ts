@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-contents',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contents.component.scss']
 })
 export class ContentsComponent implements OnInit {
+  @Input() bigData: boolean = false;
+  @Input() smartSensor: boolean = false;
+  @Input() hologram: boolean = false;
 
   constructor() { }
 

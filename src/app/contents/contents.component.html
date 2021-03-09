@@ -1,3 +1,50 @@
 <div class="pt-4 mt-3 pr-2">
-  <app-contents-item></app-contents-item>
+  <!--section 1-->
+  <div class="each-content rounded mb-5" *ngIf="bigData">
+    <h1 class="text-white mb-4">1.빅데이터 전문가</h1>
+    <img src="assets/imgs/cards/bigdatacard.png" class="img-fluid mb-4">
+    <div class="card card-body">
+      <span class="pb-1">
+        <fa-icon [icon]="['fas', 'arrow-right']" size="sm"></fa-icon>
+        분석할 데이터를 정의하고, 키워드 설정 후 가설을 수립합니다. (데이터 선택)
+      </span>
+      <span class="pb-1">
+        <fa-icon [icon]="['fas', 'arrow-right']" size="sm"></fa-icon>
+        데이터 마이닝을 통해 키워드를 중심으로 전시 관련 데이터를 추출합니다. (Programming Skills)
+      </span>
+      <span class="pb-1">
+        <fa-icon [icon]="['fas', 'arrow-right']" size="sm"></fa-icon>
+        수집한 데이터를 Chart로 정리하고, 지정된 양식에 해석을 기술합니다. (데이터 정제, 시각화)
+      </span>
+    </div>
+    <button class="btn btn-md mt-3">자세히 알아보기</button>
+  </div>
+  <!--section 2-->
+  <div class="each-content rounded mb-5" *ngIf="hologram">
+    <h1 class="text-white mb-4">2.홀로그램 전문가</h1>
+    <img src="assets/imgs/cards/hologram.png" class="img-fluid mb-4">
+    <div class="card card-body">
+      <span class="pb-1">
+        <fa-icon [icon]="['fas', 'arrow-right']" size="sm"></fa-icon>
+        아두이노 키트 및 초음파 센서를 이용해 본인의 작품을 지킬 수 있는 보안 장치를 제작합니다.
+      </span>
+    </div>
+    <button class="btn btn-md mt-3">자세히 알아보기</button>
+  </div>
+  <!--section 3-->
+  <div class="each-content rounded mb-5" *ngIf="smartSensor">
+    <h1 class="text-white mb-4">3.스마트센서 전문가</h1>
+    <img src="assets/imgs/cards/smartsensor.png" class="img-fluid mb-4">
+    <div class="card card-body">
+      <span class="pb-1">
+        <fa-icon [icon]="['fas', 'arrow-right']" size="sm"></fa-icon>
+        2D 드로잉을 영상 이미지로 전환 및 송출하는 과정을 통해 본인만의 홀로그램 작품을 제작
+      </span>
+      <span class="pb-1">
+        <fa-icon [icon]="['fas', 'arrow-right']" size="sm"></fa-icon>
+        홀로그램 원리: 45도 각도로 스크린을 설치하고 기울어져 있는 방향의 바닥에 프로젝트 등으로 상을 영사 바닥에 맺힌 상의 빛이 반사되어 스크린에 맺히는 방식
+      </span>
+    </div>
+    <button class="btn btn-md mt-3">자세히 알아보기</button>
+  </div>
 </div>
